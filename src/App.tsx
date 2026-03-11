@@ -95,15 +95,15 @@ function getBestKey(imageTitle: string, rows: number, cols: number) {
   return `${imageTitle}__${rows}x${cols}`;
 }
 
-function getStageText(mode: Mode, completed: boolean, glueReady: boolean) {
-  if (mode === "puzzle") {
-    return completed ? "已完成拼图" : "拼图中";
-  }
-  if (mode === "glue") {
-    return glueReady ? "可以装订" : "涂胶中";
-  }
-  return "已完成";
-}
+// function getStageText(mode: Mode, completed: boolean, glueReady: boolean) {
+//   if (mode === "puzzle") {
+//     return completed ? "已完成拼图" : "拼图中";
+//   }
+//   if (mode === "glue") {
+//     return glueReady ? "可以装订" : "涂胶中";
+//   }
+//   return "已完成";
+// }
 
 export default function App() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
