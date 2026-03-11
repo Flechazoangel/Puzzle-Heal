@@ -1,4 +1,4 @@
-# 拼图游戏 (Puzzle Game)
+# Puzzle Heal —— A Vibe Coding Project
 
 一个功能丰富的在线拼图游戏应用，使用 React 和 TypeScript 构建的现代 web 应用。
 
